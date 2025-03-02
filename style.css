@@ -1,0 +1,45 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-color: rgb(165,70,87) ;
+    text-align:center;
+}
+
+.container {
+    height : 90vh;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 80vh;
+    width : 80vh;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.box{
+    height : 20vmin;
+    width: 20vmin;
+    padding : 10px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1 rem rgb(0,0,0);
+    border : none;
+}
+
+.set{
+    height:5vmin;
+    width: 10vmin;
+    border-radius: 1rem;
+    box-shadow:0, 0 , 5px rgb(0,0,0);
+}
+
